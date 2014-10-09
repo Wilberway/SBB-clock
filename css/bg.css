@@ -1,0 +1,62 @@
+body{
+	background: #d1d1d1;
+}
+#bg{
+	text-align: center;
+}
+#clock{
+	text-align: center;
+}
+div div:first-child{
+	font-family: Nirmala UI;
+	font-size: 60px;
+	font-weight: 300;
+}
+.date{
+	font-family: Nirmala UI;
+	font-size: 40px;
+	font-weight: 200;
+}
+.change{
+	text-align: center;
+}
+.change div{
+	display: inline-block;
+	margin-top: 0px;
+	margin-left: 8px;
+	margin-right: 8px;
+	width: 30px;
+	height: 5px;
+	background: #888888;
+	border: 1px solid #111111;
+	cursor: pointer;
+}
+.night:hover{
+	background: #d1d1d1;
+}
+.day:hover{
+	background: #d1d1d1;
+}
+
+#nexttab {
+    display: -moz-box;
+    cursor: pointer;
+    height: 100%;
+    margin-top: -130px;
+    width: calc(100% * (50/960));
+    float: left;
+}
+#nexttab > .top-flex {
+    height: calc(50% - 18px);
+}
+#nexttab > .arrow {
+    background-position: -30px -40px;
+    padding-left: 10px;
+    padding-right: calc(100% - 40px);
+    background-clip: content-box;
+    background-image: url('/img/right.png');
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    height: 36px;
+    width: 30px;
+}

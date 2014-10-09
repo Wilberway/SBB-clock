@@ -1,0 +1,18 @@
+body{
+	background: #d1d1d1;
+}
+#bg{
+	text-align: center;
+}
+#clock{
+	text-align: center;
+}
+div div:first-child{
+	font-family: Nirmala UI;
+	font-size: 60px;
+	font-weight: bold;
+}
+div div:nth-child(2){
+	font-family: Nirmala UI;
+	font-size: 40px;
+}
